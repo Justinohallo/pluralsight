@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+<meta charset="utf-8">
+<title>Forms</title>
+   
+<!-- EMBED GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+    
+<!-- STYLE SHEETS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    
+</head>
+
+<body>
+<main>
+<!-- PAGE HEADER GOES HERE -->
+	<div id="headerWrapper">
+    <header class="clearfix">
+        <form><input type="search" placeholder="search..."></form>
+        <img src="images/logo.png" alt="logo">
+		<h1>Conference</h1>
+    </header>
+	</div> <!-- end header wrapper -->
+    
+<!-- PAGE NAVIGATION GOES HERE -->
+	<div id="navWrapper">
+    <nav class="clearfix">
+        <ul>
+            <li class="active"><a href="index.html">Register</a></li>
+            <li><a href="used.html">Agenda</a></li>
+            <li><a href="service.html">Contact</a></li>
+            <li><a href="location.html">Locations</a></li>
+        </ul>
+    </nav>
+		</div> <!-- end nav wrapper -->
+<main>
+	
+<h1>Register</h1>
+	
+	
+	
+<form name="myForm" action="formProcessor.html" method="post" >
+
+<section id="fullName" class="">
+<label><div>Full Name*</div>
+	<input name="name" type="text" class="myInput" autocomplete="name">
+	<span>Please provide your full name</span>
+</label>
+</section>
+
+<section id="phoneNumber" class="">
+<label><div>Cell Number* </div>
+	<input name="phone" type="tel" class="myInput" placeholder="4325556789" autocomplete="tel">
+	<span>Phone number needs to be 10-15 digits</span>
+</label>
+</section>
+
+<section id="payment" class="">
+<div>Payment Method*</div>
+	<label><input name="payMethod" type="radio" class="sbs"> VISA</label>
+	<label><input name="payMethod" type="radio" class="sbs"> Master Card</label>
+	<label><input name="payMethod" type="radio" class="sbs"> Discover</label>
+	<span>Please select a payment method for your rental</span>
+</section>
+
+<section id="ccNumber" class="">
+<label><div>Credit Card Number*</div>
+	<input name="ccNumber" type="text" class="myInput" placeholder="1478 5236 9874 1584">
+	<span>Card number number needs to be 14-19 numbers</span>
+</label>
+</section>
+
+
+
+<section id="vehicle" class="">
+<label><div>Vehicle Preference*</div>
+	<select name="vehicle" class="myInput">
+		<option value="">Please Select</option>
+		<option value="Convertible">Convertible</option>
+		<option value="Coupe">Coupe</option>
+		<option value="Hatchback">Hatchback</option>
+		<option value="Crossover">Crossover</option>
+		<option value="Sedan">Sedan</option>
+		<option value="Sport Utility">Sport Utility</option>
+		<option value="truck">Truck</option>
+		<option value="Minivan">Minivan</option>
+	</select>
+</label>
+	<span>Please select a vehicle</span>
+</section>
+
+<input type="submit" value="Process My Rental" id="submitButton" class="submitBtn">
+
+</form>
+
+	</main>
+<!-- PAGE FOOTER GOES HERE -->
+	<div id="footerWrapper" >
+    <footer class="clearfix">
+    <p>&copy;2018 iConference &bull; <a href="tel:9875551234">987-555-1234</a></p>
+		
+		<section>
+			<h3>Learn About Us</h3>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Rules</a></li>
+				<li><a href="#">Resources</a></li>
+				<li><a href="#">News</a></li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Attend</h3>
+			<ul>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Why Attend</a></li>
+				<li><a href="#">Convince Your Boss</a></li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Connect</h3>
+			<ul>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Facebook</a></li>
+			</ul>
+		</section>
+		
+    </footer>
+	</div> <!-- end footer wrapper -->
+	</main>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

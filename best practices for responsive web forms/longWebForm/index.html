@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+<meta charset="utf-8">
+<title>Forms</title>
+   
+<!-- EMBED GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+    
+<!-- STYLE SHEETS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+<!-- PAGE HEADER GOES HERE -->
+	<div id="headerWrapper">
+    <header class="clearfix">
+        <form><input type="search" placeholder="search..."></form>
+        <img src="images/logo.png" alt="logo">
+		<h1>Conference</h1>
+    </header>
+	</div> <!-- end header wrapper -->
+    
+<!-- PAGE NAVIGATION GOES HERE -->
+	<div id="navWrapper">
+    <nav class="clearfix">
+        <ul>
+            <li class="active"><a href="index.html">Register</a></li>
+            <li><a href="used.html">Agenda</a></li>
+            <li><a href="service.html">Contact</a></li>
+            <li><a href="location.html">Locations</a></li>
+        </ul>
+    </nav>
+		</div> <!-- end nav wrapper -->
+    
+<!-- PAGE CONTENT GOES HERE -->
+    <main class="clearfix">
+        <figure class="banner">
+        <img src="images/banner.jpg" alt="banner of a car">
+        </figure>
+        
+        <h1>Register for iConference</h1>
+         <form action="thanks.html" method="get">
+     
+		
+            <fieldset>
+				<legend>Personal Information</legend>
+			<label class='top'>First Name*<input type="text" name="fname" required></label>
+			<label class='top'>Last Name*<input type="text" name="lname" required></label>
+			<label class='top'>Phone*<input type="tel" name="phone" placeholder="123-555-1234" required></label>
+			<label class='top'>Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+			<label class='top'>Website<input type="url" name="url" placeholder="http://"></label>
+		</fieldset>
+		
+		<fieldset>
+			<legend> Conference Pass Details</legend>
+			<h2>Pass Type</h2>
+			<label class='sbs'> <input type="radio" name='passType' value='5day'> 5 Day Pass</label>
+			<label class='sbs'> <input type="radio" name='passType' value='3day'> 3 Day Pass</label>
+			<label class='sbs'> <input type="radio" name='passType' value='1day'> 1 Day Pass</label>
+			<h2>Meal Choice</h2>
+			<label class='sbs'> <input type="checkbox" name='monDinner' value='yes'>Monday Dinner</label>
+			<label class='sbs'>  <input type="checkbox" name='tuesDinner' value='yes'>Tuesday Dinner</label>
+			<label class='sbs'> <input type="checkbox" name='wedDinner' value='yes'>Wednesday Dinner</label>
+		</fieldset>
+			
+		<fieldset>
+			<legend>Hotel Information</legend>
+			<label class='top'>Arrival Date<input type="date" name="arriveDate" ></label>
+			<label class='top'>Arrival Time<input type="time" name="arriveDate" ></label>
+			<label class='top'>Departure Date<input type="date" name="departDate" ></label>
+			<label class='top'> Room Preference
+				<select name="" id="">
+						<option value=''> Please Select &#9662</option>
+						<option value="msuite">Master Suite</option>
+						<option value="jsuite">Junior Suite</option>
+						<option value="studio">Studio</option>
+						<option value="quad">Quad</option>
+						<option value="tripple">Tripple</option>
+						<option value="double">Double</option>
+						<option value="single">Single</option>
+				</select>
+
+
+			</label>
+			<label class='top'>Number of Guests<input type="number" name="guestCount" ></label>
+		</fieldset>
+		
+             
+             
+             
+		
+		<fieldset><legend></legend>
+			<label class='top' >Name on Card*<input type="text" name="ccname" required></label>
+			<label class='top'>Card Number*<input type="number" name="cardnumber" required></label>
+			<label class='top'>Expiry*<input name="cc-exp" placeholder="MM-YYYY" required></label>
+			<label >Security Code*<input type="number" name="cvc" required></label>
+			
+		
+			 
+			 <input class="submitBtn" type="submit" value="Reserve my Seat">
+			</fieldset>
+		</form>
+		
+    </main>
+    
+<!-- PAGE FOOTER GOES HERE -->
+	<div id="footerWrapper" >
+    <footer class="clearfix">
+    <p>&copy;2018 iConference &bull; <a href="tel:9875551234">987-555-1234</a></p>
+		
+		<section>
+			<h3>Learn About Us</h3>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Rules</a></li>
+				<li><a href="#">Resources</a></li>
+				<li><a href="#">News</a></li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Attend</h3>
+			<ul>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Why Attend</a></li>
+				<li><a href="#">Convince Your Boss</a></li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Connect</h3>
+			<ul>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Facebook</a></li>
+			</ul>
+		</section>
+		
+    </footer>
+	</div> <!-- end footer wrapper -->
+</body>
+</html>

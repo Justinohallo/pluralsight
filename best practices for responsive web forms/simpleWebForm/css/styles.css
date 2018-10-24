@@ -1,0 +1,336 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+/* line 9, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 30, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 34, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 39, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+nav ul {
+  list-style: none; }
+
+/* line 43, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 47, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 53, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+/* line 62, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+/* line 69, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 76, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 80, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+/* line 85, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+/* line 91, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 100, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_reset.scss */
+input, select {
+  vertical-align: middle; }
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* line 2, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/*  apply a natural box layout model to all elements  */
+/* line 5, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*  ----------------------- BODY --------------------------- */
+/* line 8, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px; }
+
+/*  ----------------------- HEADER --------------------------- */
+/* line 16, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+div#headerWrapper {
+  background-color: #EAEAEA; }
+
+/* line 17, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+header {
+  color: #108dbb;
+  padding: 1em 2%;
+  position: relative; }
+  /* line 21, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  header form {
+    float: right; }
+    /* line 23, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+    header form input {
+      width: 8em;
+      border-radius: 15px;
+      margin-right: 2%;
+      padding: .4rem .6rem;
+      border: none;
+      font-size: 1em;
+      transition: width .5s; }
+    /* line 32, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+    header form input:focus {
+      width: 12rem; }
+  /* line 35, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  header h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    bottom: 1em;
+    left: 95px;
+    padding-left: 2%;
+    padding-left: 2vw; }
+
+/*  ----------------------- NAVIGATION --------------------------- */
+/* line 53, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+div#navWrapper {
+  background-color: #35373a;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+
+/* line 56, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+nav ul li {
+  float: left;
+  width: 25%;
+  border-right: 1px solid rgba(0, 0, 0, 0.3); }
+
+/* line 62, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+nav ul li:last-child {
+  border-right: none; }
+
+/* line 64, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+nav ul li a {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: .9em;
+  padding: .9rem 0;
+  color: #EAEAEA;
+  text-decoration: none; }
+
+/* line 74, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+nav ul li a:hover {
+  background-color: #108dbb; }
+
+/* line 76, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+nav ul li.active a {
+  background-color: #ab2a51; }
+
+/*  ----------------------- MAIN --------------------------- */
+/* line 86, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+main {
+  /*  -------- form stuff nested inside main ---------- */ }
+  /* line 87, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  main figure.smlimg {
+    width: 100%;
+    max-width: 400px; }
+  /* line 88, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  main figure.smlimg img {
+    width: 100%; }
+  /* line 90, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  main h1 {
+    font-size: 2em;
+    margin: 1rem 0 0 2%;
+    color: #108dbb; }
+  /* line 98, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  main p {
+    line-height: 130%;
+    color: #35373a;
+    padding: .5rem 2%; }
+  /* line 106, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  main form {
+    margin: 1rem 2%;
+    max-width: 25rem; }
+    /* line 109, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+    main form label {
+      display: block;
+      padding: 0.75rem 0; }
+      /* line 112, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+      main form label span {
+        font-size: .75rem;
+        color: #ce3a67; }
+      /* line 116, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+      main form label input, main form label textarea {
+        display: block;
+        font-size: 1rem;
+        padding: 0.75rem;
+        background-color: #F6F6F6;
+        border: 1px solid #bbb;
+        color: #108dbb;
+        width: 100%; }
+      /* line 125, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+      main form label textarea {
+        min-height: 13rem; }
+      /* line 126, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+      main form label input:required {
+        border: 2px solid #ce3a67; }
+      /* line 129, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+      main form label input:required:valid {
+        border-color: green; }
+      /* line 130, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+      main form label input:focus, main form label textarea:focus {
+        background-color: #ddd; }
+    /* line 132, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+    main form input.submitBtn {
+      border: none;
+      background-color: #ce3a67;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 300;
+      padding: .4rem 1rem;
+      border-radius: 1rem;
+      width: 100%;
+      -webkit-appearance: none; }
+
+/*  ----------------------- FOOTER --------------------------- */
+/* line 171, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+div#footerWrapper {
+  background-color: #35373a; }
+
+/* line 172, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+footer {
+  width: 100%; }
+  /* line 176, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  footer p {
+    text-align: center;
+    color: #EAEAEA;
+    padding: .75rem 0;
+    font-size: .9rem; }
+  /* line 183, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  footer p a {
+    color: #EAEAEA; }
+  /* line 186, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  footer section h3 {
+    color: #EAEAEA;
+    font-size: .8em;
+    font-weight: 700;
+    margin-top: 1em;
+    padding: .3em 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center; }
+  /* line 196, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  footer section ul li {
+    list-style: none; }
+  /* line 197, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+  footer section ul li a {
+    display: block;
+    color: #d1d1d1;
+    text-decoration: none;
+    font-size: .9em;
+    padding: 0.5em 2%; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+/* line 210, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_small-default.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 35rem) {
+  /* line 1, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_medium.scss */
+  nav ul li a {
+    font-size: 1.1em; }
+  /*  ----------------------- MAIN --------------------------- */
+  /*  ----------------------- FOOTER --------------------------- */
+  /* line 18, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_medium.scss */
+  footer section {
+    width: 29.33333%;
+    margin: 0 2%;
+    float: left; } }
+
+@media only screen and (min-width: 60rem) {
+  /*  ----------------------- BODY --------------------------- */
+  /* line 2, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_large.scss */
+  header, main, nav, footer {
+    max-width: 75em;
+    margin: 0 auto; }
+  /*  ----------------------- NAVIGATION --------------------------- */
+  /* line 11, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_large.scss */
+  nav ul {
+    margin-left: 2%;
+    border-left: 1px solid rgba(0, 0, 0, 0.3); }
+  /* line 15, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_large.scss */
+  nav ul li {
+    width: auto; }
+  /* line 16, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_large.scss */
+  nav ul li:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.3); }
+  /* line 17, /Users/justinohalloran/Documents/justinohalloran /Web Development/Pluralsight/best practices for responsive web forms/simpleWebForm/scss/_large.scss */
+  nav ul li a {
+    padding: .5rem 1rem; }
+  /*  ----------------------- MAIN --------------------------- */ }
+
+/*# sourceMappingURL=../css/styles.map */

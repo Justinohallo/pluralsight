@@ -1,0 +1,21 @@
+<section id="formProblems" class="">
+	<p>There was a problem with your submission.<br>Errors have been highlighted below.</p>
+</section>
+	
+	
+	
+	
+// error instructions at the top of the page
+section p {display: none;}
+section.error p {
+	display: block;
+	border: solid 1px #F00; 
+	background-color: rgba(255,0,0,0.3);
+	padding: .3rem $gutter;
+}
+	
+	
+	
+	
+	
+	

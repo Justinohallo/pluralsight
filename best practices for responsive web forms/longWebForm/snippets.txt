@@ -1,0 +1,7 @@
+<option value="msuite">Master Suite</option>
+<option value="jsuite">Junior Suite</option>
+<option value="studio">Studio</option>
+<option value="quad">Quad</option>
+<option value="tripple">Tripple</option>
+<option value="double">Double</option>
+<option value="single">Single</option>

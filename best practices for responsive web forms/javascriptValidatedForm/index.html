@@ -45,8 +45,11 @@
 	
 	
 	
-<form name="myForm" action="formProcessor.html" method="post" >
-
+<form name="myForm" action="formProcessor.html" method="post" 
+onsubmit="return validateForm()">
+	<section id="formProblems" class="">
+		<p>There was a problem with your submission.<br>Errors have been highlighted below.</p>
+	</section>
 <section id="fullName" class="">
 <label><div>Full Name*</div>
 	<input name="name" type="text" class="myInput" autocomplete="name">

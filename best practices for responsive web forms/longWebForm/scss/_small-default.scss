@@ -144,6 +144,15 @@ main {
 			display: block;
 			padding: 0.75rem 0
 		}
+
+		section span{ display:none}
+		section.error span{display:block;
+							color:red;
+						font-size:.75rem;
+					padding-left:.2rem;}
+		section.error{
+			background-color:rgba(255,0,0,0.3)
+		}
 		
 	
 		
